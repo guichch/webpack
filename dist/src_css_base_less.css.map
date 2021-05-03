@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://webpack-master/./src/css/base.less"],"names":[],"mappings":"AAAA;EACE;EACA;KAAA;MAAA;UAAA;EACA;AACF","file":"src_css_base_less.css","sourcesContent":["body {\n  color: red;\n  user-select: none;\n  background-image: url(../img/dog.png);\n}\n\n"],"sourceRoot":""}
