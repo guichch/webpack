@@ -115,7 +115,7 @@
 
 ## 开发环境
 ### source map
-  + source map用于生成打包文件和原始文件之间的映射，如果代码报错的化，source map可以帮助我们找到源代码报错的额外i之
+  + source map用于生成打包文件和原始文件之间的映射，如果代码报错的化，source map可以帮助我们找到源代码报错的位置
   + 配置方式：devtool: 'source-map'
 
 ### 热更新
@@ -340,7 +340,7 @@
       { 
         "presets": [
           [
-            "@babel/preset-env,   // 预设是根据.browserslistrc文件来进行代码转换的
+            "@babel/preset-env",   // 预设是根据.browserslistrc文件来进行代码转换的
             { 
               "targets": {  // target属性是适配指定的浏览器
               "ie": 8, 
@@ -461,7 +461,7 @@
       }
 
       apply(compiler) {
-        console.log(this.options, compiler)
+        console.log(this.options)
       }
     }
   ```
